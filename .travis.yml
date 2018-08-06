@@ -1,0 +1,7 @@
+deploy:
+  provider: s3
+  access_key_id: "AKIAJGIKNGN5PSMKECEA"
+  secret_access_key: "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"
+  bucket: "illinoisexpo.org"
+  skip_cleanup: true
+  region: "us-east-2"
