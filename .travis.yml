@@ -17,3 +17,5 @@ deploy:
   acl: public_read
   on:
     repo: illinoisexpo/expo-website
+  skip_cleanup: true
+  region: us-east-2
