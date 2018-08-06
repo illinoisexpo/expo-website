@@ -17,7 +17,8 @@ cache:
 deploy:
   provider: s3
   access_key_id: AKIAJGIKNGN5PSMKECEA
-  secret_access_key: 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
+  secret_access_key:
+    secure: E+dSGkxWPI7SRi/z3cMRuDlYsxQg4HlRxSbfTtcd5YZCfWMevOGEJEwS5gdEyNbn3DdU+LHXgfnPSY2+4FEzAdwOVHaVxuffA/YblfHqOcjlVpjaKr3wkLrF6BCeQKgkAyni6UlKfHQgEPA9tCnc5BdHBq3u75/H4/A0IsuqWR58WE8TvgQq3+k1RNmPJJ8iG/JhxaBUJZRe8BOrdTEaqAkyGDVsXEdCnai1ti1vx0uhtOBklwObgHTqwpUsSrpaXLfvm+/DCuTqw/KLyq/ADrfBTftWFEbUcd/+mr8teR/ajlusUGaqA60Byf4Q17xTOlcpOwQdxgg8BIZ5RgWsfpoeHZe36EjUGoDbp4aH9uKof4oQncWqvPk2ssqOb+vBL5sTWMYMa0DamhSdETwJxK1+E8dY7g3PLhrTu2R/uRxg5cZAnPuyGVvvtKkuDdenkklSqd5Y/aPZ6kc0fy8U9aT86DeMP8R0Em6A5KeAxiADKoB0jCre+JP8VYenvhawIJ/98yAQ8jgcP6RPIl/iv1KzXFhRp4zTcQFTUhNlZUbYTuyBKGVUYe8mgddjnfGkVIEybNeWi6Wf842okAJWO9na4SrLxI2qB/n9akBMwMs/87lLBgNEAAzts+SgUkhSIPWoZg3Cq12hi45TFw3ikUemfuXkUfHGrtfSJXzhaTM=
   bucket: illinoisexpo.org
   skip_cleanup: true
   region: us-east-2
