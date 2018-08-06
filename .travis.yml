@@ -1,29 +1,24 @@
 language: node_js
-
 node_js:
-  - 8
-
+- 8
 script:
-  - npm run build
-
+- npm run build
 before_install:
-  - export CHROME_BIN=chromium-browser
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
-
+- export CHROME_BIN=chromium-browser
+- export DISPLAY=:99.0
+- sh -e /etc/init.d/xvfb start
 notifications:
   email:
     on_failure: change
-
 cache:
   yarn: true
   directories:
-    - node_modules
-
+  - node_modules
 deploy:
   provider: s3
-  access_key_id: "AKIAJGIKNGN5PSMKECEA"
-  secret_access_key: "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"
-  bucket: "illinoisexpo.org"
+  access_key_id: AKIAJGIKNGN5PSMKECEA
+  secret_access_key:
+    secure: 0b4CbNVCIMPRI21ZF8pn4Ru7bvdTgqEA/gdbjzXlk/PmuC3tjxNrC7dlQEUGxuLAIyWioqP2YK1j07X7UogR0NQtVtq4+jbIxBvYIFeE5q/Ii1tF4Pm4+LF3Vs627lo0JSiYX9WTvSaQfBT0alKgF3/tJgoVFyhC7i/U0VpnVB5q0NBjqdyAhbIEKgGqFCOm6kOagXToEweIWH6rootx1mG/8PdJ6tel9kkvD9sOXS6U+VlR2//gxy8tNKwGcLc0NF5Kf3i7IzTS2LgEg2nf6hx9R6j5Bj7JcWxt6uNxzb1rcl3kA8vJGoGF0vHV886u9g6pPpUPd8go9cLL50d1BlaGNSD5pgKZJGvUa5nvZa5yndlIh8ufziKu6JNpJQx61O60ceh4gg25fHeFLlNCuNpUu212Wy5FSH93pReG/Lihn/+x/YHnw1UtG09rM2RZRGxquVTMYMly4p/CL14U6dkAruYiZYFWU+GUoBU2sZVAUnwmdq+FG1OWD73dx71vzX8o2Akj6msLT6ixfsqETQzVBPkzdhNSfbdVXsHvVGJmc+2H28zH444ysYH7WEGrclhfTf0ET8hD/uNF/qqgAAoVtmjeUJ/EVLy9M1vxOLDi+JSM8JhJvA1rYqsNGCRsUjRO7FPThBlB5FLu/4P/cij7/IhtMYTFYONmaEkuads=
+  bucket: illinoisexpo.org
   skip_cleanup: true
-  region: "us-east-2"
+  region: us-east-2
