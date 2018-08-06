@@ -11,11 +11,6 @@ class App extends Component {
         <h1 className="App-intro">
           Sept 11th - 12th, 2018
         </h1>
-        <div class="">
-        
-
-          
-        </div>
       </div>
     );
   }
