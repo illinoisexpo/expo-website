@@ -15,7 +15,7 @@ deploy:
       BQnRMZGz1MsvKYc3JwA5tfyTZbFZ//A11S1Ih5id+iTrGghjBel5wy2w1v9YynKpL07XM5gRi9FKU/8+XnL14mM8MRMAke+HtrqAA6/FvlaZDUBWw/XTFuSGtgoDdcnxK5SXO+4mEyk7ztQEyFanZRqVMF/rOXuB5XLoPYYaprQUhEdKn6QE332WTJ9LKWO8r2qXkP1otD9JxKg/cYnV019Qo112BiYMXAkb+1KqBvA6kXLRPp5phnVS/QhycSjymmdVWF2yZ3G93bIDJK6ASsn5xcaic4E9HNxkvR+awwKKZxrAuysUrkyPDMyMOTOvDIdlieUhSg620yMgOh4KHTOYsQAqkJYFE3CN1Da6LXxXyl2U8T2IshvyjtEraMdvSdEMA0A2wEPSEFgPIV9EV3+/XEiDPVXyE5gaf1NAZgjpiyOqEkP0buC23blI74LgA+rvyEEWy+adD9dw+RQgsCg2/j2MVZ9bsR+WuTK6YMpGXi+wi0eFxc3AmcNzBnZLe1ik2iuFYDeo8ZKwYBSJUQk2fRUe02QvkP+c4F3FFdi3rkGMju/ZBRvObj7/OT6pdOcqsaYSP7lBy2D32HRIWvcYvhJ7gO6vEex54zi1UuN8Iagy2tiUhVxu4uZIIZ80v79nNdIQnq34ueY0GnWvdVF1LCOY8DxvTONBN8DCJBY=
   bucket: illinoisexpo.org
   local-dir: build/
-  acl: public_read
+  acl: public_read_write
   on:
     repo: illinoisexpo/expo-website
   region: us-east-2
