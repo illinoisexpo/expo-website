@@ -19,4 +19,4 @@ deploy:
   on:
     repo: illinoisexpo/expo-website
   region: us-east-2
-  skip_cleanup: true
+  skip_cleanup: true 
