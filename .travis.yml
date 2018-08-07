@@ -12,7 +12,7 @@ deploy:
   access_key_id: AKIAJR4PMAEZ77JFJBPQ
   secret_access_key: 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
   bucket: illinoisexpo.org
-  local-dir: build/
+  local-dir: build
   acl: public_read_write
   on:
     repo: illinoisexpo/expo-website
