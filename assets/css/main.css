@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		background: #D75436;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2778,7 +2778,8 @@ input, select, textarea {
 			}
 
 			.tiles article:after {
-				background-color: rgba(36, 41, 67, 0.25);
+        /* HERE */
+				background-color: #000232;
 				content: '';
 				display: block;
 				height: 100%;
@@ -2809,6 +2810,7 @@ input, select, textarea {
 				width: 60%;
 			}
 
+      /*  Cleaner colors here */
 			.tiles article:nth-child(6n - 5):before {
 				background-color: #6fc3df;
 			}
@@ -3359,7 +3361,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/pic07.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3389,7 +3391,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #D75436;
 			content: '';
 			display: block;
 			height: 100%;
